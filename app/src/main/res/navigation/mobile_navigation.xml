@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.skill_it_2021_09.ui.Home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_customers"
+        android:name="com.example.skill_it_2021_09.ui.Customers.CustomersFragment"
+        android:label="@string/menu_customers"
+        tools:layout="@layout/fragment_customers" />
+    <fragment
+        android:id="@+id/nav_products"
+        android:name="com.example.skill_it_2021_09.ui.Products.ProductsFragment"
+        android:label="@string/menu_products"
+        tools:layout="@layout/fragment_products" />
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.skill_it_2021_09.ui.Orders.OrdersFragment"
+        android:label="@string/menu_orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.skill_it_2021_09.ui.Cart.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/addCustomers"
+        android:name="com.example.skill_it_2021_09.AddCustomers"
+        android:label="fragment_add_customers"
+        tools:layout="@layout/fragment_add_customers" />
+    <fragment
+        android:id="@+id/addProducts"
+        android:name="com.example.skill_it_2021_09.AddProducts"
+        android:label="fragment_add_products"
+        tools:layout="@layout/fragment_add_products" />
+</navigation>
